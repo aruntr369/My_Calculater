@@ -14,6 +14,7 @@
         android:layout_height="250dp"
         android:padding="10dp"
         android:textSize="40sp"
+        android:layout_margin="10dp"
         android:gravity="bottom|right"
         android:background="#D5B59D"/>
 

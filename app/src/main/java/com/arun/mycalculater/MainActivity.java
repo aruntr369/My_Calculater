@@ -58,12 +58,13 @@ public class MainActivity extends AppCompatActivity {
     public void Onequals(View view) {
         if(lastNu){
             String no= result.getText().toString();
-//            Double dd=Double.parseDouble(no);
+ //           Double dd=Double.parseDouble((String) result.getText());
 //            String neww= String.valueOf(dd);
 //            result.setText(neww);
 
 
             if(no.contains("-")) {
+
                 StringTokenizer obj = new StringTokenizer(no);
                 String data[] = no.split("-");
                 Double first = Double.parseDouble(data[0]);
